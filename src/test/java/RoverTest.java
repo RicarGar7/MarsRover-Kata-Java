@@ -7,7 +7,16 @@ public class RoverTest {
     public void roverShouldInitializeCorrectly() {
         Rover rover = new Rover();
 
-        Assert.assertEquals(new Position(0,0).toString(),rover.getPosition().toString());
+        Assert.assertEquals(new Position(0, 0).toString(), rover.getPosition().toString());
+    }
+
+    @Test
+    public void roverShouldMoveForward() {
+        Rover rover = getRoverOnCenterFacingNorth();
+        Engine engine = new Engine(rover);
+        rover.execute("F".toCharArray());
+
+        Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
     }
 
     private Rover getRoverOnCenterFacingNorth() {
@@ -15,15 +24,15 @@ public class RoverTest {
     }
 
     private Rover getRoverOnCenterFacingSouth() {
-        return new Rover(new Position(0,0),new Orientation(CardinalPoint.SOUTH));
+        return new Rover(new Position(0, 0), new Orientation(CardinalPoint.SOUTH));
     }
 
     private Rover getRoverOnCenterFacingEast() {
-        return new Rover(new Position(0,0),new Orientation(CardinalPoint.EAST));
+        return new Rover(new Position(0, 0), new Orientation(CardinalPoint.EAST));
     }
 
     private Rover getRoverOnCenterFacingWest() {
-        return new Rover(new Position(0,0),new Orientation(CardinalPoint.WEST));
+        return new Rover(new Position(0, 0), new Orientation(CardinalPoint.WEST));
     }
 
 

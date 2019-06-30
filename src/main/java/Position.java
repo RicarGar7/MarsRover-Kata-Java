@@ -2,6 +2,14 @@ public class Position {
     private final int xAxis;
     private final int yAxis;
 
+    public int getxAxis() {
+        return xAxis;
+    }
+
+    public int getyAxis() {
+        return yAxis;
+    }
+
     public Position(int xAxis, int yAxis) {
         this.xAxis = xAxis;
         this.yAxis = yAxis;
