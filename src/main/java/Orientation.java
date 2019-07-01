@@ -5,4 +5,15 @@ public class Orientation {
     public Orientation(CardinalPoint cardinalPoint) {
         this.cardinalPoint = cardinalPoint;
     }
+
+    public CardinalPoint getCardinalPoint() {
+        return cardinalPoint;
+    }
+
+    @Override
+    public String toString() {
+        return "Orientation{" +
+                "cardinalPoint=" + cardinalPoint +
+                '}';
+    }
 }

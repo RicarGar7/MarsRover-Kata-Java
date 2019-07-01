@@ -27,6 +27,15 @@ public class RoverTest {
         Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
     }
 
+    @Test
+    public void roverShouldTurnAndChangeHimOrientation() {
+        Rover rover = getRoverOnCenterFacingWest();
+        Gps gps = new Gps(rover);
+        rover.execute("R".toCharArray());
+
+        Assert.assertEquals(new Orientation(CardinalPoint.NORTH).toString(), rover.getOrientation().toString());
+    }
+
     private Rover getRoverOnCenterFacingNorth() {
         return new Rover();
     }

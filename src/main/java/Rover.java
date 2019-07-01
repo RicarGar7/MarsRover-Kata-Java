@@ -50,6 +50,14 @@ public class Rover implements Machine {
         this.position = position;
     }
 
+    public Orientation getOrientation() {
+        return orientation;
+    }
+
+    public void setOrientation(Orientation orientation) {
+        this.orientation = orientation;
+    }
+
     public char getInstruction() {
         return instuction;
     }
