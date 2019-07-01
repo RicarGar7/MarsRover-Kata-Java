@@ -18,6 +18,14 @@ public class RoverTest {
 
         Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
     }
+    @Test
+    public void roverShouldMoveBackwards() {
+        Rover rover = getRoverOnCenterFacingSouth();
+        Engine engine = new Engine(rover);
+        rover.execute("B".toCharArray());
+
+        Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
+    }
 
     private Rover getRoverOnCenterFacingNorth() {
         return new Rover();
