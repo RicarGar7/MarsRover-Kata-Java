@@ -9,9 +9,11 @@ public class Engine implements Component {
     public void update() {
         char instruction = this.machine.getInstruction();
         Position actualMachinePosition = this.machine.getPosition();
+        int[] axisHelper = this.machine.getAxisHelper();
+
         if (instruction == 'F')
-            this.machine.setPosition(new Position(actualMachinePosition.getxAxis(), actualMachinePosition.getyAxis() + 1));
+            this.machine.setPosition(new Position(actualMachinePosition.getxAxis() + axisHelper[0], actualMachinePosition.getyAxis()+ axisHelper[1]));
         if (instruction == 'B')
-            this.machine.setPosition(new Position(actualMachinePosition.getxAxis(), actualMachinePosition.getyAxis() + 1));
+            this.machine.setPosition(new Position(actualMachinePosition.getxAxis() + -axisHelper[0], actualMachinePosition.getyAxis()+ -axisHelper[1]));
     }
 }

@@ -22,6 +22,7 @@ public class RoverTest {
     public void roverShouldMoveBackwards() {
         Rover rover = getRoverOnCenterFacingSouth();
         Engine engine = new Engine(rover);
+
         rover.execute("B".toCharArray());
 
         Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
@@ -31,9 +32,22 @@ public class RoverTest {
     public void roverShouldTurnAndChangeHimOrientation() {
         Rover rover = getRoverOnCenterFacingWest();
         Gps gps = new Gps(rover);
+
         rover.execute("R".toCharArray());
 
         Assert.assertEquals(new Orientation(CardinalPoint.NORTH).toString(), rover.getOrientation().toString());
+    }
+
+    @Test
+    public void roverShouldMoveOnTheCorrectPositionWhenItTurns() {
+        Rover rover = getRoverOnCenterFacingNorth();
+        Cpu cpu = new Cpu(rover);
+        Engine engine = new Engine(rover);
+        Gps gps = new Gps(rover);
+
+        rover.execute("FRFLBR".toCharArray());
+
+        Assert.assertEquals(new Rover(new Position(1, 0), new Orientation(CardinalPoint.EAST)).toString(), rover.toString());
     }
 
     private Rover getRoverOnCenterFacingNorth() {

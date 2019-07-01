@@ -4,7 +4,8 @@ public class Rover implements Machine {
     private ArrayList<Component> components;
     private Thread thread;
 
-    private char instuction = ' ';
+    private char instruction;
+    private int[] axisHelper = {0,0};
 
     private Orientation orientation;
     private Position position;
@@ -29,7 +30,7 @@ public class Rover implements Machine {
         components.remove(component);
     }
 
-    public void notifyComponents(){
+    private void notifyComponents(){
         for(Component component : components){
             component.update();
         }
@@ -37,7 +38,7 @@ public class Rover implements Machine {
 
     public void execute(char[] commands) {
         for(char command : commands){
-            this.instuction = command;
+            this.instruction = command;
             notifyComponents();
         }
     }
@@ -59,6 +60,22 @@ public class Rover implements Machine {
     }
 
     public char getInstruction() {
-        return instuction;
+        return instruction;
+    }
+
+    public int[] getAxisHelper() {
+        return axisHelper;
+    }
+
+    public void setAxisHelper(int[] axisHelper) {
+        this.axisHelper = axisHelper;
+    }
+
+    @Override
+    public String toString() {
+        return "Rover{" +
+                "orientation=" + orientation.toString() +
+                ", position=" + position.toString() +
+                '}';
     }
 }
