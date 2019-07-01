@@ -7,27 +7,38 @@ public class Gps implements Component {
     }
 
     public void update() {
-        Orientation actualMachineOrientation = this.machine.getOrientation();
         this.machine.setOrientation(this.getNextOrientation());
     }
 
     private Orientation getNextOrientation() {
         char instruction = this.machine.getInstruction();
+
         String actualMachineOrientation = this.machine.getOrientation().getCardinalPoint().toString();
-        int actualCardinalPointIndex = CardinalPoint.valueOf(actualMachineOrientation).ordinal();
+
         int nextCardinalPointIndex = CardinalPoint.valueOf(actualMachineOrientation).ordinal() + 1;
         int prevCardinalPointIndex = CardinalPoint.valueOf(actualMachineOrientation).ordinal() - 1;
         int lastCardinalPointIndex = CardinalPoint.values().length - 1;
 
         if (instruction == 'L') {
-            if (actualCardinalPointIndex == 0)
+            if (isTheFirstCardinalPointOfEnum())
                 return new Orientation(CardinalPoint.values()[lastCardinalPointIndex]);
             return new Orientation(CardinalPoint.values()[prevCardinalPointIndex]);
         } else if (instruction == 'R') {
-            if (actualCardinalPointIndex == lastCardinalPointIndex)
+            if (isTheLastCardinalPointOfEnum())
                 return new Orientation(CardinalPoint.values()[0]);
             return new Orientation(CardinalPoint.values()[nextCardinalPointIndex]);
-        }
-        return this.machine.getOrientation();
+        } else
+            return this.machine.getOrientation();
+    }
+
+    private boolean isTheFirstCardinalPointOfEnum() {
+        int actualCardinalPointIndex = CardinalPoint.valueOf(this.machine.getOrientation().getCardinalPoint().toString()).ordinal();
+        return actualCardinalPointIndex == 0;
+    }
+
+    private boolean isTheLastCardinalPointOfEnum() {
+        int actualCardinalPointIndex = CardinalPoint.valueOf(this.machine.getOrientation().getCardinalPoint().toString()).ordinal();
+        int lastCardinalPointIndex = CardinalPoint.values().length - 1;
+        return actualCardinalPointIndex == lastCardinalPointIndex;
     }
 }

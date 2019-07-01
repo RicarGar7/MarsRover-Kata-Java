@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924b0730-fa2a-4335-8305-132499cd368c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Orientation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orientation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+            <state relative-caret-position="290">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +30,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Gps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+            <state relative-caret-position="703">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="method#isTheFirstCardinalPointOfEnum#0;class#Gps#0" />
+                <element signature="method#isTheLastCardinalPointOfEnum#0;class#Gps#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/java/Machine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Orientation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Gps.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Gps.java" />
       </list>
     </option>
   </component>
@@ -196,9 +196,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest.roverShouldTurnAndChangeHimOrientation">
-    <configuration name="RoverTest.roverShouldInitializeCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRover" />
+  <component name="RunManager" selected="JUnit.RoverTest">
+    <configuration name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover-Kata-Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverTest.roverShouldInitializeCorrectly (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover-Kata-Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoverTest" />
       <option name="METHOD_NAME" value="roverShouldInitializeCorrectly" />
@@ -227,16 +236,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoverTest.roverShouldMoveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="roverShouldMoveForward" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover-Kata-Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -249,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoverTest" />
+        <item itemvalue="JUnit.RoverTest.roverShouldInitializeCorrectly (1)" />
         <item itemvalue="JUnit.RoverTest.roverShouldTurnAndChangeHimOrientation" />
         <item itemvalue="JUnit.RoverTest.roverShouldMoveBackwards" />
         <item itemvalue="JUnit.RoverTest.roverShouldMoveForward (1)" />
-        <item itemvalue="JUnit.RoverTest.roverShouldMoveForward" />
-        <item itemvalue="JUnit.RoverTest.roverShouldInitializeCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -267,20 +266,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561725640346</updated>
-      <workItem from="1561963856225" duration="6316000" />
+      <workItem from="1561963856225" duration="6954000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 06m 58s.xml">
-      <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 07m 25s.xml">
-      <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 07m 35s.xml">
-      <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 07m 48s.xml">
       <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
     </history-entry>
@@ -302,9 +292,18 @@
     <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 18m 36s.xml">
       <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoverTest_roverShouldTurnAndChangeHimOrientation - 2019.07.01 at 11h 19m 23s.xml">
+      <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldInitializeCorrectly_(1) - 2019.07.01 at 11h 20m 14s.xml">
+      <configuration name="RoverTest.roverShouldInitializeCorrectly (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest - 2019.07.01 at 11h 20m 20s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7675000" />
+    <option name="totallyTimeSpent" value="8313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,12 +329,12 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969603" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289166" />
@@ -403,20 +402,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CardinalPoint.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="method#Rover#0;class#Rover#0" />
-            <element signature="method#Rover#1;class#Rover#0" />
-            <element signature="method#addComponent#0;class#Rover#0" />
-            <element signature="method#notifyComponents#0;class#Rover#0" />
-            <element signature="method#execute#0;class#Rover#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Orientation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -434,19 +419,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Gps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="290">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        <state relative-caret-position="756">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#Rover#0;class#Rover#0" />
+            <element signature="method#Rover#1;class#Rover#0" />
+            <element signature="method#addComponent#0;class#Rover#0" />
+            <element signature="method#notifyComponents#0;class#Rover#0" />
+            <element signature="method#execute#0;class#Rover#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Gps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="method#isTheFirstCardinalPointOfEnum#0;class#Gps#0" />
+            <element signature="method#isTheLastCardinalPointOfEnum#0;class#Gps#0" />
           </folding>
         </state>
       </provider>
