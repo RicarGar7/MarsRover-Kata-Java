@@ -2,10 +2,9 @@ import java.util.ArrayList;
 
 public class Rover implements Machine {
     private ArrayList<Component> components;
-    private Thread thread;
 
     private char instruction;
-    private int[] axisHelper = {0,0};
+    private int[] axisHelper = {0, 0};
 
     private Orientation orientation;
     private Position position;
@@ -15,29 +14,30 @@ public class Rover implements Machine {
         this.orientation = orientation;
         this.components = new ArrayList<Component>();
     }
+
     public Rover() {
-        this.position = new Position(0,0);
+        this.position = new Position(0, 0);
         this.orientation = new Orientation(CardinalPoint.NORTH);
         this.components = new ArrayList<Component>();
     }
 
-    public void addComponent(Component component){
+    public void addComponent(Component component) {
         components.add(component);
         notifyComponents();
     }
 
-    public void removeComponent(Component component){
+    public void removeComponent(Component component) {
         components.remove(component);
     }
 
-    private void notifyComponents(){
-        for(Component component : components){
+    private void notifyComponents() {
+        for (Component component : components) {
             component.update();
         }
     }
 
     public void execute(char[] commands) {
-        for(char command : commands){
+        for (char command : commands) {
             this.instruction = command;
             notifyComponents();
         }
@@ -59,16 +59,16 @@ public class Rover implements Machine {
         this.orientation = orientation;
     }
 
-    public char getInstruction() {
-        return instruction;
-    }
-
     public int[] getAxisHelper() {
         return axisHelper;
     }
 
     public void setAxisHelper(int[] axisHelper) {
         this.axisHelper = axisHelper;
+    }
+
+    public char getInstruction() {
+        return instruction;
     }
 
     @Override
