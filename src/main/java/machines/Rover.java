@@ -1,10 +1,19 @@
+package machines;
+
+
+
+import components.Component;
+import machines.situation.CardinalPoint;
+import machines.situation.Orientation;
+import machines.situation.Position;
+
 import java.util.ArrayList;
 
 public class Rover implements Machine {
     private ArrayList<Component> components;
     private Thread thread;
 
-    private char instuction = ' ';
+    private char instruction = ' ';
 
     private Orientation orientation;
     private Position position;
@@ -37,7 +46,7 @@ public class Rover implements Machine {
 
     public void execute(char[] commands) {
         for(char command : commands){
-            this.instuction = command;
+            this.instruction = command;
             notifyComponents();
         }
     }
@@ -51,6 +60,6 @@ public class Rover implements Machine {
     }
 
     public char getInstruction() {
-        return instuction;
+        return instruction;
     }
 }

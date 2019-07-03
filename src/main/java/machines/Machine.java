@@ -1,3 +1,8 @@
+package machines;
+
+import components.Component;
+import machines.situation.Position;
+
 public interface Machine {
     char getInstruction();
     Position getPosition();

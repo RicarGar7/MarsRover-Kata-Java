@@ -1,3 +1,8 @@
+import components.Engine;
+import machines.Rover;
+import machines.situation.CardinalPoint;
+import machines.situation.Orientation;
+import machines.situation.Position;
 import org.junit.Assert;
 import org.junit.Test;
 

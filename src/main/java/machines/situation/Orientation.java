@@ -1,3 +1,5 @@
+package machines.situation;
+
 public class Orientation {
 
     private final CardinalPoint cardinalPoint;
