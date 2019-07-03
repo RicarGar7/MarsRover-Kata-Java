@@ -13,6 +13,7 @@ public class Rover implements Machine {
 
     private char instruction;
     private int[] axisHelper = {0, 0};
+    private boolean obstacleDetected = true;
 
     private Orientation orientation;
     private Position position;
@@ -68,6 +69,13 @@ public class Rover implements Machine {
     }
     public void setAxisHelper(int[] axisHelper) {
         this.axisHelper = axisHelper;
+    }
+
+    public boolean isObstacleDetected() {
+        return obstacleDetected;
+    }
+    public void setObstacleDetected(boolean obstacleDetected) {
+        this.obstacleDetected = obstacleDetected;
     }
 
     public char getInstruction() {

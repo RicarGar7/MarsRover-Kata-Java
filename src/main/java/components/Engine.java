@@ -21,9 +21,11 @@ public class Engine implements Component {
         int[] axisHelper = this.machine.getAxisHelper();
 
         if (instruction == 'F')
-            return new Position(actualMachinePosition.getxAxis() + axisHelper[0], actualMachinePosition.getyAxis() + axisHelper[1]);
+            if (!this.machine.isObstacleDetected())
+                return new Position(actualMachinePosition.getxAxis() + axisHelper[0], actualMachinePosition.getyAxis() + axisHelper[1]);
         if (instruction == 'B')
-            return new Position(actualMachinePosition.getxAxis() + -axisHelper[0], actualMachinePosition.getyAxis() + -axisHelper[1]);
+            if (!this.machine.isObstacleDetected())
+                return new Position(actualMachinePosition.getxAxis() + -axisHelper[0], actualMachinePosition.getyAxis() + -axisHelper[1]);
         return this.machine.getPosition();
     }
 }

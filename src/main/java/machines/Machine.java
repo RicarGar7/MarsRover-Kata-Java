@@ -12,6 +12,8 @@ public interface Machine {
     void setOrientation(Orientation orientation);
     int[] getAxisHelper();
     void setAxisHelper(int[] axisHelper);
+    boolean isObstacleDetected();
+    void setObstacleDetected(boolean obstacleDetected);
     void addComponent(Component component);
     void removeComponent(Component component);
 }
