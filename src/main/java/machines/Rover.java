@@ -1,3 +1,11 @@
+package machines;
+
+
+import components.Component;
+import machines.situation.CardinalPoint;
+import machines.situation.Orientation;
+import machines.situation.Position;
+
 import java.util.ArrayList;
 
 public class Rover implements Machine {

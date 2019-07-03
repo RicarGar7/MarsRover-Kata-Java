@@ -1,3 +1,9 @@
+package components;
+
+import machines.Machine;
+import machines.situation.CardinalPoint;
+import machines.situation.Orientation;
+
 public class Gps implements Component {
     private Machine machine;
 

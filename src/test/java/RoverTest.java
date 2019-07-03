@@ -1,10 +1,15 @@
+import components.Cpu;
+import components.Engine;
+import components.Gps;
+import machines.Rover;
+import machines.situation.CardinalPoint;
+import machines.situation.Orientation;
+import machines.situation.Position;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 public class RoverTest {
-
-
     Rover rover;
     Cpu cpu;
     Gps gps;
@@ -17,6 +22,7 @@ public class RoverTest {
         engine = new Engine(rover);
         gps = new Gps(rover);
     }
+
     @Test
     public void roverShouldInitializeCorrectly() {
         Assert.assertEquals(new Rover(new Position(0, 0), new Orientation(CardinalPoint.NORTH)).toString(), rover.toString());
@@ -28,6 +34,7 @@ public class RoverTest {
 
         Assert.assertEquals(new Position(0, 1).toString(), rover.getPosition().toString());
     }
+
     @Test
     public void roverShouldMoveBackwards() {
         rover.execute("B".toCharArray());

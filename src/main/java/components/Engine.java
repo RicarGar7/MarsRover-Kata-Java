@@ -1,3 +1,8 @@
+package components;
+
+import machines.Machine;
+import machines.situation.Position;
+
 public class Engine implements Component {
     private Machine machine;
 

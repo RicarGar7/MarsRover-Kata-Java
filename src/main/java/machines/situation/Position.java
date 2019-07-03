@@ -1,3 +1,5 @@
+package machines.situation;
+
 public class Position {
     private final int xAxis;
     private final int yAxis;

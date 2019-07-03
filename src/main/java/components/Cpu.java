@@ -1,3 +1,9 @@
+package components;
+
+
+import machines.Machine;
+import machines.situation.CardinalPoint;
+
 public class Cpu implements Component {
     private Machine machine;
 
