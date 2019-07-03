@@ -26,15 +26,17 @@ public class Gps implements Component {
         int lastCardinalPointIndex = CardinalPoint.values().length - 1;
 
         if (instruction == 'L') {
-            if (isTheFirstCardinalPointOfEnum())
+            if (isTheFirstCardinalPointOfEnum()) {
                 return new Orientation(CardinalPoint.values()[lastCardinalPointIndex]);
+            }
             return new Orientation(CardinalPoint.values()[prevCardinalPointIndex]);
         } else if (instruction == 'R') {
-            if (isTheLastCardinalPointOfEnum())
+            if (isTheLastCardinalPointOfEnum()) {
                 return new Orientation(CardinalPoint.values()[0]);
+            }
             return new Orientation(CardinalPoint.values()[nextCardinalPointIndex]);
-        } else
-            return this.machine.getOrientation();
+        }
+        return this.machine.getOrientation();
     }
 
     private boolean isTheFirstCardinalPointOfEnum() {

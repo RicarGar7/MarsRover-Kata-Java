@@ -13,25 +13,23 @@ public class Cpu implements Component {
     }
 
     public void update() {
-        calculateDirection();
+        this.machine.setAxisHelper(calculateDirection());
     }
 
-    private void calculateDirection() {
-        CardinalPoint actualMachineOrientationCardinalPoint = this.machine.getOrientation().getCardinalPoint();
+    private int[] calculateDirection() {
+        CardinalPoint actualMachineOrientation = this.machine.getOrientation().getCardinalPoint();
 
-        switch (actualMachineOrientationCardinalPoint) {
+        switch (actualMachineOrientation) {
             case NORTH:
-                this.machine.setAxisHelper(new int[]{0, 1});
-                break;
+                return new int[]{0, 1};
             case EAST:
-                this.machine.setAxisHelper(new int[]{1, 0});
-                break;
+                return new int[]{1, 0};
             case SOUTH:
-                this.machine.setAxisHelper(new int[]{0, -1});
-                break;
+                return new int[]{0, -1};
             case WEST:
-                this.machine.setAxisHelper(new int[]{-1, 0});
-                break;
+                return new int[]{-1, 0};
+            default:
+                return new int[]{0, 0};
         }
     }
 }

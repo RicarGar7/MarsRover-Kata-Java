@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="924b0730-fa2a-4335-8305-132499cd368c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CardinalPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/situation/CardinalPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Cpu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Gps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Orientation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/situation/Orientation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/situation/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/Cpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Cpu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/Gps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Gps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/machines/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Rover.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,91 +23,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/machines/Rover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Rover#0;class#Rover#0" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="method#notifyComponents#0;class#Rover#0" />
-                <element signature="method#execute#0;class#Rover#0" />
-                <element signature="method#toString#0;class#Rover#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/components/Cpu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="543">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Cpu#0;class#Cpu#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Orientation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/CardinalPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/components/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/components/Gps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="method#isTheFirstCardinalPointOfEnum#0;class#Gps#0" />
-                <element signature="method#isTheLastCardinalPointOfEnum#0;class#Gps#0" />
               </folding>
             </state>
           </provider>
@@ -145,7 +63,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/Orientation.java" />
         <option value="$PROJECT_DIR$/src/main/java/CardinalPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/components/Gps.java" />
         <option value="$PROJECT_DIR$/src/main/java/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Surface.java" />
         <option value="$PROJECT_DIR$/src/test/java/MarsTest.java" />
@@ -158,10 +75,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Cpu.java" />
         <option value="$PROJECT_DIR$/src/main/java/Machine.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/situation/Orientation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/machines/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/situation/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/components/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/Machine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/machines/Rover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/components/Gps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/components/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/Cpu.java" />
       </list>
     </option>
@@ -178,6 +96,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="situation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -231,60 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="situation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,14 +227,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Togethere/api-core" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ricar\Desktop\MarsRover-Kata-Java\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="components" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ricar\Desktop\MarsRover-Kata-Java\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,16 +325,12 @@
       <workItem from="1562075606068" duration="253000" />
       <workItem from="1562138489408" duration="16000" />
       <workItem from="1562138516995" duration="895000" />
+      <workItem from="1562144007873" duration="11000" />
+      <workItem from="1562150464908" duration="895000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest_roverShouldMoveOnTheCorrectPositionWhenItTurns - 2019.07.01 at 12h 21m 54s.xml">
-      <configuration name="RoverTest.roverShouldMoveOnTheCorrectPositionWhenItTurns" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldMoveOnTheCorrectPositionWhenItTurns - 2019.07.01 at 12h 22m 13s.xml">
-      <configuration name="RoverTest.roverShouldMoveOnTheCorrectPositionWhenItTurns" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarsTest_marsPlanetShouldInitializeWithObstaclesCorrectly - 2019.07.01 at 13h 11m 21s.xml">
       <configuration name="MarsTest.marsPlanetShouldInitializeWithObstaclesCorrectly" configurationId="JUnit" />
     </history-entry>
@@ -428,9 +355,15 @@
     <history-entry file="RoverTest - 2019.07.02 at 09h 05m 53s.xml">
       <configuration name="RoverTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoverTest - 2019.07.03 at 08h 58m 58s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest - 2019.07.03 at 11h 43m 28s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21070000" />
+    <option name="totallyTimeSpent" value="21995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +378,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.096979335" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098569155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,7 +386,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -462,7 +395,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969603" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289166" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289166" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -555,24 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/components/Gps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="method#isTheFirstCardinalPointOfEnum#0;class#Gps#0" />
-            <element signature="method#isTheLastCardinalPointOfEnum#0;class#Gps#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/components/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/CardinalPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -587,35 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/machines/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Rover#0;class#Rover#0" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="method#notifyComponents#0;class#Rover#0" />
-            <element signature="method#execute#0;class#Rover#0" />
-            <element signature="method#toString#0;class#Rover#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machines/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -626,20 +512,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/components/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/components/Gps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="method#Gps#0;class#Gps#0" />
+            <element signature="method#getNextOrientation#0;class#Gps#0" />
+            <element signature="method#isTheFirstCardinalPointOfEnum#0;class#Gps#0" />
+            <element signature="method#isTheLastCardinalPointOfEnum#0;class#Gps#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/components/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="324">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Engine#0;class#Engine#0" />
+            <element signature="method#getNextPosition#0;class#Engine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="method#toString#0;class#Position#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/machines/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Rover#0;class#Rover#0" />
+            <element signature="method#execute#0;class#Rover#0" />
+            <element signature="method#notifyComponents#0;class#Rover#0" />
+            <element signature="method#addComponent#0;class#Rover#0" />
+            <element signature="method#toString#0;class#Rover#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/components/Cpu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="543">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Cpu#0;class#Cpu#0" />

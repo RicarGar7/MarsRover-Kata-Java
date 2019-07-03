@@ -29,32 +29,29 @@ public class Rover implements Machine {
         this.components = new ArrayList<Component>();
     }
 
-    public void addComponent(Component component) {
-        components.add(component);
-        notifyComponents();
-    }
-
-    public void removeComponent(Component component) {
-        components.remove(component);
-    }
-
-    private void notifyComponents() {
-        for (Component component : components) {
-            component.update();
-        }
-    }
-
     public void execute(char[] commands) {
         for (char command : commands) {
             this.instruction = command;
             notifyComponents();
         }
     }
+    private void notifyComponents() {
+        for (Component component : components) {
+            component.update();
+        }
+    }
+
+    public void addComponent(Component component) {
+        components.add(component);
+        notifyComponents();
+    }
+    public void removeComponent(Component component) {
+        components.remove(component);
+    }
 
     public Position getPosition() {
         return position;
     }
-
     public void setPosition(Position position) {
         this.position = position;
     }
@@ -62,7 +59,6 @@ public class Rover implements Machine {
     public Orientation getOrientation() {
         return orientation;
     }
-
     public void setOrientation(Orientation orientation) {
         this.orientation = orientation;
     }
@@ -70,7 +66,6 @@ public class Rover implements Machine {
     public int[] getAxisHelper() {
         return axisHelper;
     }
-
     public void setAxisHelper(int[] axisHelper) {
         this.axisHelper = axisHelper;
     }
