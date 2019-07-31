@@ -9,7 +9,8 @@ import machines.situation.Position;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import planet.obstacles.Obstacle;
+
+import java.util.ArrayList;
 
 public class RoverTest {
     Rover rover;
@@ -25,7 +26,6 @@ public class RoverTest {
         gps = new Gps(rover);
         sensor = new Sensor(rover);
         engine = new Engine(rover);
-
     }
 
     @Test
@@ -66,11 +66,11 @@ public class RoverTest {
 
     @Test
     public void  roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves() {
-        Obstacle obstacle = new Obstacle(new planet.obstacles.situation.Position(0,4));
+        sensor.AddObstacle(new Position(0,1));
 
-        rover.execute("FFFF".toCharArray());
+        rover.execute("F".toCharArray());
 
-        Assert.assertEquals(new Rover(new Position(0, 3), new Orientation(CardinalPoint.NORTH)).toString(), rover.toString());
+        Assert.assertEquals(new Rover(new Position(0, 0), new Orientation(CardinalPoint.NORTH)).toString(), rover.toString());
     }
 
     private Rover getRoverOnCenterFacingNorth() {

@@ -18,10 +18,13 @@ public class Rover implements Machine {
     private Orientation orientation;
     private Position position;
 
+
+
     public Rover(Position position, Orientation orientation) {
         this.position = position;
         this.orientation = orientation;
         this.components = new ArrayList<Component>();
+
     }
 
     public Rover() {

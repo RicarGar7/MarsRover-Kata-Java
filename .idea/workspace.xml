@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/RoverTest.java" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/RoverTest.java" line="23" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924b0730-fa2a-4335-8305-132499cd368c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/planet/obstacles/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/planet/obstacles/situation/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/machines/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Sensor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/machines/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/planet/obstacles/Obstacle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/planet/obstacles/situation/Position.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,12 +24,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="407">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getRoverOnCenterFacingWest#0;class#RoverTest#0" />
@@ -43,14 +41,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/machines/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="434">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Rover#0;class#Rover#0" />
-                <element signature="method#execute#0;class#Rover#0" />
-                <element signature="method#notifyComponents#0;class#Rover#0" />
-                <element signature="method#addComponent#0;class#Rover#0" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#2085#2086#0" expanded="true" />
                 <element signature="method#toString#0;class#Rover#0" />
               </folding>
             </state>
@@ -60,25 +57,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/components/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="24" column="136" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="136" />
+            <state relative-caret-position="459">
+              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Engine#0;class#Engine#0" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/machines/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#2070#2071#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,11 +138,11 @@
         <option value="$PROJECT_DIR$/src/main/java/planet/situation/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/planet/Obstacle.java" />
         <option value="$PROJECT_DIR$/src/main/java/planet/Planet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/machines/Machine.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/Rover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/components/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/machines/Machine.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/components/Sensor.java" />
       </list>
     </option>
   </component>
@@ -147,111 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="machines" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="situation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="planet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="planet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="obstacles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="planet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="obstacles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="situation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MarsRover-Kata-Java" type="58d84e3e:PackageViewProjectNode" />
-              <item name="MarsRover-Kata-Java" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +200,60 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MarsRover-Kata-Java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MarsRover-Kata-Java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MarsRover-Kata-Java" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MarsRover-Kata-Java" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,17 +263,24 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Togethere/api-core" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ricar\Desktop\MarsRover-Kata-Java\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="components" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="planet.situation" />
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ricar\Desktop\MarsRover-Kata-Java\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,9 +349,9 @@
       <list>
         <item itemvalue="JUnit.RoverTest" />
         <item itemvalue="JUnit.RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" />
+        <item itemvalue="JUnit.RoverTest.roverShouldMoveBackwards" />
         <item itemvalue="JUnit.RoverTest.roverShouldTurnAndChangeHimOrientation" />
         <item itemvalue="JUnit.RoverTest.roverShouldMoveOnTheCorrectPositionWhenItTurns" />
-        <item itemvalue="JUnit.RoverTest.roverShouldMoveBackwards" />
       </list>
     </recent_temporary>
   </component>
@@ -406,43 +373,47 @@
       <workItem from="1562138516995" duration="895000" />
       <workItem from="1562144007873" duration="11000" />
       <workItem from="1562150464908" duration="895000" />
+      <workItem from="1562174766729" duration="87000" />
+      <workItem from="1564470977462" duration="459000" />
+      <workItem from="1564498003012" duration="2188000" />
+      <workItem from="1564566788929" duration="2181000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest - 2019.07.02 at 09h 01m 37s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2019.07.02 at 09h 03m 16s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2019.07.02 at 09h 03m 48s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2019.07.02 at 09h 05m 53s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2019.07.03 at 08h 58m 58s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2019.07.03 at 11h 43m 28s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.03 at 12h 45m 50s.xml">
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 10h 59m 03s.xml">
       <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.03 at 13h 20m 48s.xml">
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 07m 38s.xml">
       <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.03 at 13h 21m 26s.xml">
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 07m 43s.xml">
       <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoverTest - 2019.07.03 at 13h 50m 34s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 09m 30s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 13m 43s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 13m 46s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 18m 50s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 20m 17s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 20m 20s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 20m 37s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27130000" />
+    <option name="totallyTimeSpent" value="32045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,8 +426,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098569155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10174881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,8 +437,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
@@ -520,6 +492,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.machine.positionsOccupiedByObstacles.size()" />
+        <watch expression="this.positionsOccupiedByObstacles.size()" />
+        <watch expression="this.positionsOccupiedByObstacles.get(i).toString()" />
+        <watch expression="nextPosiblePosition.toString()" />
+        <watch expression="this.machine.setObstacleDetected" />
+        <watch expression="nextPosiblePosition.toString() == this.positionsOccupiedByObstacles.get(i).toString(" />
+        <watch expression="nextPosiblePosition.toString() == this.positionsOccupiedByObstacles.get(i).toString()" />
+        <watch expression="nextPosiblePosition.toString().equals(this.positionsOccupiedByObstacles.get(i).toString())" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -580,54 +566,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="method#toString#0;class#Position#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/planet/obstacles/situation/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="method#toString#0;class#Position#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/planet/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/planet/obstacles/Obstacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/machines/Machine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/planet/obstacles/situation/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/planet/Planet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/planet/obstacles/Obstacle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/components/Cpu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -639,51 +580,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/components/Engine.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/machines/situation/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="24" column="136" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="136" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/components/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Engine#0;class#Engine#0" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/machines/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machines/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="434">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Rover#0;class#Rover#0" />
-            <element signature="method#execute#0;class#Rover#0" />
-            <element signature="method#notifyComponents#0;class#Rover#0" />
-            <element signature="method#addComponent#0;class#Rover#0" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
             <element signature="method#toString#0;class#Rover#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="407">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getRoverOnCenterFacingWest#0;class#RoverTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
           </folding>
         </state>
       </provider>
