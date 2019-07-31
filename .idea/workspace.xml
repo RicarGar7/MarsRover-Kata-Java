@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="924b0730-fa2a-4335-8305-132499cd368c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/machines/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/machines/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/planet/obstacles/Obstacle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/planet/obstacles/situation/Position.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="569">
+              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getRoverOnCenterFacingWest#0;class#RoverTest#0" />
@@ -80,16 +76,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="164">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
                 <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
+                <element signature="method#findIfIsObstacleOnNextPosiblePosition#0;class#Sensor#0" />
+                <element signature="n#!!block;n#AddObstacle#0;n#Sensor#0" />
+                <element signature="e#2060#2061#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/main/java/components/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/java/machines/Machine.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
       </list>
     </option>
   </component>
@@ -295,12 +292,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest">
+  <component name="RunManager" selected="JUnit.RoverTest.roverShouldAbortTheSequenceIfEncounterAnObstacle">
     <configuration name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover-Kata-Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoverTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverTest.roverShouldAbortTheSequenceIfEncounterAnObstacle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover-Kata-Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="roverShouldAbortTheSequenceIfEncounterAnObstacle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,16 +332,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoverTest.roverShouldMoveOnTheCorrectPositionWhenItTurns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRover-Kata-Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="roverShouldMoveOnTheCorrectPositionWhenItTurns" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RoverTest.roverShouldTurnAndChangeHimOrientation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover-Kata-Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -347,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoverTest" />
+        <item itemvalue="JUnit.RoverTest.roverShouldAbortTheSequenceIfEncounterAnObstacle" />
         <item itemvalue="JUnit.RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" />
+        <item itemvalue="JUnit.RoverTest" />
         <item itemvalue="JUnit.RoverTest.roverShouldMoveBackwards" />
         <item itemvalue="JUnit.RoverTest.roverShouldTurnAndChangeHimOrientation" />
-        <item itemvalue="JUnit.RoverTest.roverShouldMoveOnTheCorrectPositionWhenItTurns" />
       </list>
     </recent_temporary>
   </component>
@@ -376,20 +373,11 @@
       <workItem from="1562174766729" duration="87000" />
       <workItem from="1564470977462" duration="459000" />
       <workItem from="1564498003012" duration="2188000" />
-      <workItem from="1564566788929" duration="2181000" />
+      <workItem from="1564566788929" duration="2686000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 10h 59m 03s.xml">
-      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 07m 38s.xml">
-      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 07m 43s.xml">
-      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 09m 30s.xml">
       <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
@@ -411,9 +399,18 @@
     <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 20m 37s.xml">
       <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 29m 36s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves - 2019.07.31 at 11h 30m 32s.xml">
+      <configuration name="RoverTest.roverShouldDetectPosibleObstaclesOnTheNextPositionBeforeHeMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest - 2019.07.31 at 11h 32m 55s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32045000" />
+    <option name="totallyTimeSpent" value="32550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,12 +434,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969603" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289166" />
@@ -620,6 +617,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="method#findIfIsObstacleOnNextPosiblePosition#0;class#Sensor#0" />
+            <element signature="n#!!block;n#AddObstacle#0;n#Sensor#0" />
+            <element signature="e#2060#2061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machines/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -646,24 +657,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="569">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getRoverOnCenterFacingWest#0;class#RoverTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/components/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
           </folding>
         </state>
       </provider>

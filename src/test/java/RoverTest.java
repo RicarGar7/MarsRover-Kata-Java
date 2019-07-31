@@ -73,6 +73,15 @@ public class RoverTest {
         Assert.assertEquals(new Rover(new Position(0, 0), new Orientation(CardinalPoint.NORTH)).toString(), rover.toString());
     }
 
+    @Test
+    public void roverShouldAbortTheSequenceIfEncounterAnObstacle(){
+        sensor.AddObstacle(new Position(0,3));
+
+        rover.execute("FFFRB".toCharArray());
+
+        Assert.assertEquals(new Rover(new Position(0, 2), new Orientation(CardinalPoint.NORTH)).toString(), rover.toString());
+    }
+
     private Rover getRoverOnCenterFacingNorth() {
         return new Rover();
     }
